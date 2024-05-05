@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>神秘页面</title>  <style>
+    body {
+      background-color: #222;
+      color: #aaa;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 25px 40px;
+      border: 1px solid #007bff;
+      border-radius: 5px;
+      background-color: #337ab7;
+      color: #fff;
+      font-size: 24px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #286090;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="window.location.href = 'http://localhost:5173'; referrerPolicy='origin'">点击跳转</button>
+</body>
+</html>
